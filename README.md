@@ -1,18 +1,18 @@
 # LoadingImgDelay
-基于jquery自己开发的图片懒加载插件
+# 基于jquery自己开发的图片懒加载插件
 
 
-##首先引入官方jquery文件
+### 首先引入官方jquery文件
 ```
 <script src="./jquery.js"></script>
 ```
 
-##再引入LoadingImgDelay本插件
+### 再引入LoadingImgDelay本插件
 ```
 <script src="./LoadingImgDelay.js"></script>
 ```
 
-##定义一个图片真实的url列表
+### 定义一个图片真实的url列表
 ```
 var arr = [
         'http://img5.imgtn.bdimg.com/it/u=3985625818,1688087717&fm=11&gp=0.jpg',
@@ -24,7 +24,7 @@ var arr = [
         'http://img3.imgtn.bdimg.com/it/u=3112993479,79641540&fm=26&gp=0.jpg',
   ]
 ```
-## new一个实例化对象并且配置参数
+### new一个实例化对象并且配置参数
 ```
     new LoadingImgDelay({
         imgSrcList: imgSrc, // 真实图片列表数组,
@@ -33,8 +33,7 @@ var arr = [
     })
 ```
 
-#注
-##1、所有图片默认的图为数组第一项
-
-##2、真实图片列表和所对应的img不对应，则不会更改
+# 注
+### 1、所有图片默认的图为数组第一项
+### 2、真实图片列表和所对应的img不对应，则不会更改
 
